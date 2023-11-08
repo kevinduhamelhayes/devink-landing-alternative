@@ -4,8 +4,6 @@ import { FaWhatsapp } from 'react-icons/fa'
 import Navbar from '@/components/Navbar'
 import './globals.css'
 import Footer from '@/components/Footer'
-
-
 const RedHatDisplay = redHatDisplay({ subsets: ['latin'] })
 
 export const metadata = {

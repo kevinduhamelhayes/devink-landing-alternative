@@ -19,14 +19,18 @@ const WithUs = () => (
       </h3>
 
       <p className="mb-4 mt-2 max-w-[80%] text-sm text-white md:text-xl xl:text-2xl">
-        Inicia tu camino en la programación con nuestros servicios de capacitación personalizados y pair programming. Diseñados para principiantes, estos cursos son la puerta de entrada al mundo del desarrollo de software.
+        Inicia en programación con nuestra capacitación y pair programming.
       </p>
       <p className="mb-4 mt-2 hidden max-w-[80%] text-sm text-white sm:block md:text-xl xl:text-2xl">
-        Opta por un aprendizaje interactivo con la guía de un tutor personal, donde nuestros programadores expertos dedicarán su tiempo para enseñarte las mejores prácticas y técnicas de codificación en un entorno de trabajo real.
+        Aprende con tutores expertos y adopta las mejores prácticas de codificación.
       </p>
       <p className="mt-2 hidden max-w-[80%] text-sm text-white sm:block md:text-xl xl:text-2xl">
-        Con una inversión en tu futuro, tendrás la oportunidad de aprender de manera práctica mediante sesiones de pair programming, donde podrás codificar junto a un profesional y acelerar tu progreso como desarrollador.
+        Invierte en tu desarrollo con sesiones prácticas y asesoría personalizada.
       </p>
+      <p className="mt-2 hidden max-w-[80%] text-sm text-white sm:block md:text-xl xl:text-2xl">
+        Avanza rápidamente en software trabajando codo a codo con profesionales.
+      </p>
+
       <button className="mt-6 rounded-full border border-cyan-bright px-12 py-4 text-xl font-semibold text-cyan-bright" type="button">
         Saber más...
       </button>
