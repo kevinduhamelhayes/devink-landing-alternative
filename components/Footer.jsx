@@ -10,8 +10,8 @@ import {
 } from 'react-icons/fa'
 import Link from 'next/link'
 
-const Footer1 = () => (
-  <footer className="flex min-h-[250px] w-full flex-col items-center space-y-6  bg-blue-dark p-10 text-white md:space-y-10 md:px-20">
+const Footer = () => (
+  <footer className="flex min-h-[250px] w-full flex-col items-center space-y-6  bg-blue-dark p-10 text-white md:space-y-10 md:px-20 z-50">
     <div className="flex w-full flex-col space-y-5 md:flex-row md:justify-between md:space-y-0">
       <figure className="hidden flex-col items-center md:flex">
         <img
@@ -97,4 +97,4 @@ const Footer1 = () => (
   </footer>
 )
 
-export default Footer1
+export default Footer

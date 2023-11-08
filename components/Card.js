@@ -20,12 +20,12 @@ const Card = ({
         isInView ? 'animate-fade-right animate-ease-in-out' : 'opacity-0'
       }`}
     >
-      <h3 className="text-xl font-medium   leading-5  text-cyan md:text-2xl">
+      <h3 className="text-xl font-medium  leading-5  text-cyan md:text-2xl">
         {logo || ''}
         {' '}
         {title}
       </h3>
-      <p className="text-lg text-white  md:text-xl  ">{text || ''}</p>
+      <p className="text-lg text-white md:text-xl  ">{text || ''}</p>
     </section>
   )
 }

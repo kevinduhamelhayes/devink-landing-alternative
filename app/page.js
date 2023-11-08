@@ -15,9 +15,10 @@ export default function Home() {
       <Steps />
       <Blogs />
       <OurExperience />
-      <WithUs />
-      <OurServicesScreen />
       <Projects />
+      <OurServicesScreen />
+      <WithUs />
+      
     </main>
   )
 }

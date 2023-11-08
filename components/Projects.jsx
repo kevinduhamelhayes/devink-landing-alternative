@@ -2,8 +2,8 @@ import React from 'react'
 import Image from 'next/image'
 
 const Projects = () => (
-  <div className="relative">
-    <figure className="max-h-[90vh] overflow-hidden">
+  <div className="relative  z-20">
+    <figure className=" max-h-[90vh] overflow-hidden">
       <Image
         src="/HERO8.jpg"
         alt="Combria Logo"
@@ -14,13 +14,19 @@ const Projects = () => (
       <div className="absolute inset-0 bg-[#0B132B] opacity-60" />
     </figure>
     <div className="absolute inset-0  z-10 flex flex-col items-center justify-center p-4 text-center">
-      <h3 className=" mb-8 text-2xl text-white md:text-4xl xl:text-6xl">
-        Corporativo & Empresarial
-      </h3>
+    <h3 className="mb-8 text-2xl text-cyan md:text-4xl xl:text-6xl">
+    Tu crecimiento es nuestro objetivo
+  </h3>
 
-      <p className="mb-4  mt-2 max-w-[80%]  text-sm text-white md:text-xl xl:text-2xl">En el dinámico mundo empresarial de hoy, la figura del abogado corporativo se ha convertido en una pieza clave para el éxito y la estabilidad de cualquier compañía.</p>
-      <p className="mt-2 hidden max-w-[80%] text-sm text-white   sm:block md:text-xl xl:text-2xl"> Estos profesionales del derecho no solo están equipados para navegar por el laberinto de regulaciones y leyes que afectan a las empresas, sino que también ofrecen una perspectiva estratégica que puede ser crucial para el crecimiento y la supervivencia a largo plazo.</p>
-      <p className="mt-2 hidden max-w-[80%] text-sm text-white   sm:block md:text-xl xl:text-2xl"> Desde la asesoría en la formación de una nueva empresa hasta la gestión de fusiones y adquisiciones, los abogados corporativos son los aliados estratégicos que aseguran que las operaciones comerciales se mantengan dentro del marco legal y optimizan los resultados financieros.</p>
+  <p className="mb-4 mt-2 max-w-[80%] text-sm text-white md:text-xl xl:text-2xl">
+    Impulsa tu presencia en línea con nuestro servicio integral de desarrollo de marca, creación de contenido y diseño de landing pages personalizadas.
+  </p>
+  <p className="mt-2 hidden max-w-[80%] text-sm text-white sm:block md:text-xl xl:text-2xl">
+    Con un enfoque creativo y estratégico, nuestro equipo trabaja para construir una identidad de marca sólida que resuene con tu audiencia y destaque en el mercado.
+  </p>
+  <p className="mt-2 hidden max-w-[80%] text-sm text-white sm:block md:text-xl xl:text-2xl">
+    Desde contenido atractivo hasta landing pages optimizadas para conversión, ofrecemos soluciones personalizadas que no solo capturan la esencia de tu negocio, sino que también impulsan resultados tangibles.
+  </p>
     </div>
   </div>
 )
