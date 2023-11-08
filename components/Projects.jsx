@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import React from 'react'
 import Image from 'next/image'
 
@@ -19,18 +20,14 @@ const Projects = () => (
       </h3>
 
       <p className="mb-4 mt-2 max-w-[80%] text-sm text-white md:text-xl xl:text-2xl">
-        Potencia tu marca en línea con servicios de desarrollo y diseño a medida.
+        Impulsa tu presencia en línea con nuestro servicio integral de desarrollo de marca, creación de contenido y diseño de landing pages personalizadas.
       </p>
       <p className="mt-2 hidden max-w-[80%] text-sm text-white sm:block md:text-xl xl:text-2xl">
-        Nuestro equipo crea identidades de marca que conectan y sobresalen.
+        Con un enfoque creativo y estratégico, nuestro equipo trabaja para construir una identidad de marca sólida que resuene con tu audiencia y destaque en el mercado.
       </p>
       <p className="mt-2 hidden max-w-[80%] text-sm text-white sm:block md:text-xl xl:text-2xl">
-        Generamos contenido y landing pages para maximizar tu conversión.
+        Desde contenido atractivo hasta landing pages optimizadas para conversión, ofrecemos soluciones personalizadas que no solo capturan la esencia de tu negocio, sino que también impulsan resultados tangibles.
       </p>
-      <p className="mt-2 hidden max-w-[80%] text-sm text-white sm:block md:text-xl xl:text-2xl">
-        Con soluciones personalizadas, impulsamos el crecimiento de tu negocio.
-      </p>
-
     </div>
   </div>
 )
