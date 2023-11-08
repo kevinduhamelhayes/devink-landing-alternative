@@ -27,7 +27,7 @@ const WithUs = () => (
       <p className="mt-2 hidden max-w-[80%] text-sm text-white sm:block md:text-xl xl:text-2xl">
         Con una inversión en tu futuro, tendrás la oportunidad de aprender de manera práctica mediante sesiones de pair programming, donde podrás codificar junto a un profesional y acelerar tu progreso como desarrollador.
       </p>
-      <button className="mt-6 rounded-full border border-cyan-bright px-12 py-4 text-xl font-semibold text-cyan-bright" type='button'>
+      <button className="mt-6 rounded-full border border-cyan-bright px-12 py-4 text-xl font-semibold text-cyan-bright" type="button">
         Saber más...
       </button>
     </div>
