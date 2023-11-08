@@ -18,8 +18,7 @@ const page = async () => {
   }
 
   return (
-    <div className="relative z-20 flex h-full w-full flex-col items-center justify-center bg-blue-dark "
-    >
+    <div className="relative z-20 flex h-full w-full flex-col items-center justify-center bg-blue-dark ">
       <figure className="max-h-[100vh] overflow-hidden ">
         <Image
           src="/HERO8.jpg"
@@ -31,28 +30,28 @@ const page = async () => {
         <div className="absolute inset-0 bg-[#0B132B] opacity-60" />
       </figure>
       <div className="absolute inset-0  z-10 flex flex-col items-center justify-center  text-center">
-        <div className="flex flex-row text-white font-regular">
-          <Image src="/favicon.ico" width={80} height={60} />
+        <div className="flex flex-row font-normal text-white">
+          <Image src="/favicon.ico" alt="logo" width={80} height={60} />
           <h1 className="ml-2 text-[30px] font-semibold md:text-[50px]">
             Devink
             {' '}
             <span className="italic ">Blogs</span>
           </h1>
-          </div>
-        
-        <h2 className="mt-5 text-white text-[20px] font-light md:text-[30px] ">
+        </div>
+
+        <h2 className="mt-5 text-[20px] font-light text-white md:text-[30px] ">
           Descubre cómo las empresas exitosas se reinventan con la ayuda de la
           tecnología y la ciencia de vanguardia.
         </h2>
-      <section className="mt-5 gap-8 flex w-full max-w-[1300px] flex-col md:flex-row">
-        {blogsData
-          ? blogsData.data?.map((blog) => (
-            <BlogCard blog={blog} key={blog.id} />
-          ))
-          : 'No hay blogs'}
-      </section>
+        <section className="mt-5 flex w-full max-w-[1300px] flex-col gap-8 md:flex-row">
+          {blogsData
+            ? blogsData.data?.map((blog) => (
+              <BlogCard blog={blog} key={blog.id} />
+            ))
+            : 'No hay blogs'}
+        </section>
       </div>
-</div>
+    </div>
   )
 }
 
