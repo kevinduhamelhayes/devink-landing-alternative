@@ -25,7 +25,7 @@ const Card = ({
         {' '}
         {title}
       </h3>
-      <p className="text-lg text-blue-mid1  md:text-xl  ">{text || ''}</p>
+      <p className="text-lg text-white  md:text-xl  ">{text || ''}</p>
     </section>
   )
 }
